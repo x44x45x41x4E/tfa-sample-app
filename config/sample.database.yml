@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: utf-8
+  pool: 5
+
+development:
+  <<: *default
+  database: tfa-sample-app_development
+
+test:
+  <<: *default
+  database: tfa-sample-app_test
+
+production:
+  <<: *default
+  database: tfa-sample-app_production
+  username: tfa-sample-app
+  password: <%= ENV['TFA-SAMPLE-APP_DATABASE_PASSWORD'] %>
