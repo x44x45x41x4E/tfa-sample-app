@@ -4,6 +4,7 @@ gem 'rails', '4.2.1'
 
 gem 'pg'
 
+gem 'devise'
 gem 'omniauth-etalio', git: 'git@github.com:Etalio/omniauth-etalio.git'
 
 gem 'foundation-rails'
