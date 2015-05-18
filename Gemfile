@@ -25,4 +25,11 @@ group :development, :test do
   gem 'binding_of_caller'
   gem 'bullet'
   gem 'foreman'
+  gem 'capistrano',           '3.4.0', require: false
+  gem 'capistrano-rvm',       require: false
+  gem 'capistrano-rails',     require: false
+  gem 'capistrano-bundler',   require: false
+  gem 'capistrano3-unicorn',  require: false
+  gem 'capistrano-sidekiq',   require: false
+  gem 'capistrano-db-tasks',  require: false
 end
