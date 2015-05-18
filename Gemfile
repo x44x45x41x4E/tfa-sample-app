@@ -18,6 +18,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 
+gem 'exception_notification', :github => 'smartinez87/exception_notification'
+
 group :development, :test do
   gem 'spring'
   gem 'annotate'
@@ -25,7 +27,7 @@ group :development, :test do
   gem 'binding_of_caller'
   gem 'bullet'
   gem 'foreman'
-  gem 'capistrano',           '3.4.0', require: false
+  gem 'capistrano',           '~> 3.4.0', require: false
   gem 'capistrano-rvm',       require: false
   gem 'capistrano-rails',     require: false
   gem 'capistrano-bundler',   require: false
