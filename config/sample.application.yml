@@ -1,0 +1,9 @@
+#Change in production
+
+production:
+  MC_CLIENT_ID: "Redacted"
+  MC_CLIENT_SECRET: "Redacted"
+
+development:
+  MC_CLIENT_ID: "Redacted"
+  MC_CLIENT_SECRET: "Redacted"
