@@ -23,6 +23,8 @@ end
 #  mobile_no              :string
 #  created_at             :datetime
 #  updated_at             :datetime
+#  provider               :string
+#  uid                    :string
 #
 # Indexes
 #
