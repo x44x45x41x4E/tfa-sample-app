@@ -12,7 +12,7 @@ stderr_path "/home/deployer/apps/tfa-sample-app/shared/log/unicorn.error.log"
 stdout_path "/home/deployer/apps/tfa-sample-app/shared/log/unicorn.access.log"
 
 # Set unicorn options
-worker_processes 1
+worker_processes 2
 preload_app true
 timeout 180
 listen "/home/deployer/apps/tfa-sample-app/shared/tmp/sockets/tfa-sample-app-unicorn.sock"
