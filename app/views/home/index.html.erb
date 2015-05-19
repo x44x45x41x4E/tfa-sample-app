@@ -16,9 +16,9 @@
       <%= link_to('Sign out', destroy_user_session_path, :method => :delete) %>
    </li>
 <% else %>
-  <p>No user is logged in.</p>
-  <br>
-  <br>
-  <br>
-  <li><%= link_to "Sign in with Mobile Connect", user_omniauth_authorize_path(:etalio) %></li>
+    <p>No user is logged in.</p>
+    <br>
+    <br>
+    <br>
+    <li><%= link_to "Sign in with Mobile Connect", user_omniauth_authorize_path(:etalio) %></li>
 <% end %>
