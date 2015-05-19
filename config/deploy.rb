@@ -1,5 +1,5 @@
 # config valid only for Capistrano 3.1
-lock '3.2.1'
+lock '3.4.0'
 
 set :repo_url,        'git@github.com:x44x45x41x4E/tfa-sample-app.git'
 set :application,     'tfa-sample-app'
