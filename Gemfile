@@ -7,7 +7,7 @@ gem 'pg'
 gem 'unicorn'
 
 gem 'devise'
-gem 'omniauth-etalio', git: 'git@github.com:Etalio/omniauth-etalio.git'
+gem 'omniauth-etalio', :github => 'Etalio/omniauth-etalio'
 
 gem 'figaro'
 

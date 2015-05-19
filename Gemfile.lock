@@ -1,17 +1,17 @@
 GIT
+  remote: git://github.com/Etalio/omniauth-etalio.git
+  revision: 044786de3e03d9f4d9a2e727638d9317b920a571
+  specs:
+    omniauth-etalio (1.0.3)
+      omniauth-oauth2 (~> 1.1.1)
+
+GIT
   remote: git://github.com/smartinez87/exception_notification.git
   revision: 7414336f358c03201165081fb9a2a9b34ad25107
   specs:
     exception_notification (4.1.0)
       actionmailer (>= 3.0.4)
       activesupport (>= 3.0.4)
-
-GIT
-  remote: git@github.com:Etalio/omniauth-etalio.git
-  revision: 044786de3e03d9f4d9a2e727638d9317b920a571
-  specs:
-    omniauth-etalio (1.0.3)
-      omniauth-oauth2 (~> 1.1.1)
 
 GEM
   remote: https://rubygems.org/
