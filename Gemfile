@@ -21,8 +21,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'exception_notification', :github => 'smartinez87/exception_notification'
 
 group :development, :test do
-  gem 'spring'
   gem 'annotate'
+  gem 'awesome_print'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'bullet'
