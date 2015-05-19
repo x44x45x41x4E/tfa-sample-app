@@ -22,7 +22,6 @@ require 'capistrano/rvm'
 require 'capistrano/bundler'
 require 'capistrano/rails'
 require 'capistrano3/unicorn'
-require 'capistrano/sidekiq'
 require 'capistrano-db-tasks'
 
 # Loads custom tasks from `lib/capistrano/tasks' if you have any defined.
