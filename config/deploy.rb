@@ -1,10 +1,9 @@
-# config valid only for Capistrano 3.1
 lock '3.4.0'
 
 set :repo_url,        'git@github.com:x44x45x41x4E/tfa-sample-app.git'
 set :application,     'tfa-sample-app'
 set :user,            'deployer'
-
+set :rvm_ruby_version, '2.2.2@tfa-sample-app'
 
 # Don't change these unless you know what you're doing
 set :pty,             false
