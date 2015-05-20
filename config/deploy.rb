@@ -15,7 +15,7 @@ set :ssh_options,     { forward_agent: true, user: fetch(:user), keys: %w(~/.ssh
 # Linked Files & Directories (Default None):
 set :linked_files, %w{config/database.yml config/application.yml}
 linked_dirs = Set.new(fetch(:linked_dirs, [])) # https://github.com/capistrano/rails/issues/52
-linked_dirs.merge(%w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/assets})
+linked_dirs.merge(%w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/assets})
 set :linked_dirs, linked_dirs.to_a
 
 set :db_local_clean, true
